@@ -1,0 +1,9 @@
+scenario_id,description,resstock_upgrade,heating_method,hot_water_upgrade
+gas_furnace,Existing gas furnace + existing water heater + central AC (ResStock baseline),0,as_modeled,
+ashp_resistance_backup,Cold-climate ducted air-source heat pump with electric resistance backup,4,as_modeled,
+ashp_gas_backup,Dual-fuel air-source heat pump with 95% AFUE gas furnace backup (35F switchover),5,as_modeled,
+baseboard,Electric resistance baseboard (baseline heat delivered / 100% efficiency),0,electric_resistance,
+gas_furnace_hpwh,Gas furnace + heat pump water heater,0,as_modeled,9
+ashp_resistance_backup_hpwh,Cold-climate heat pump + heat pump water heater,4,as_modeled,9
+ashp_gas_backup_hpwh,Dual-fuel heat pump + heat pump water heater,5,as_modeled,9
+baseboard_hpwh,Electric resistance baseboard + heat pump water heater,0,electric_resistance,9

@@ -1,0 +1,5 @@
+component,charge_type,load,months,day_type,hours,block_min,block_max,price,unit,verified,source,notes
+basic_charge,monthly,total,1-12,all,0-24,,,9.50,USD/month,no,Web search summary citing CenterPoint Energy MN final rates bill insert (250620-07_MN_FinalRates_BI_Sept_Web.pdf); effective September 2025,
+delivery_charge,per_unit,total,1-12,all,0-24,,,0.33470,USD/therm,no,Web search summary citing CenterPoint Energy MN final rates bill insert (250620-07_MN_FinalRates_BI_Sept_Web.pdf); effective September 2025,
+cost_of_gas,per_unit,total,1-12,all,0-24,,,0.60061,USD/therm,no,Web search summary: CenterPoint MN residential cost of gas as of April 2026; the tariff resets this monthly,Replace with monthly values (one row per month) for seasonal gas prices
+gas_riders,per_unit,total,1-12,all,0-24,,,0.0,USD/therm,no,Not found; CenterPoint MN per-therm riders (CIP adjustment and others) were not retrieved,Enter current rider total

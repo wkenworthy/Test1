@@ -1,0 +1,6 @@
+component,charge_type,load,months,day_type,hours,block_min,block_max,price,unit,verified,source,notes
+customer_charge,monthly,total,1-12,all,0-24,,,8.00,USD/month,no,Web search summary citing Xcel MN residential rate card (MNResRateCard.pdf); effective date not confirmed,Overhead service
+energy_summer,per_unit,total,6-9,all,0-24,,,0.13655,USD/kWh,no,Web search summary citing Xcel MN residential rate card (MNResRateCard.pdf); effective date not confirmed,Same as standard residential
+energy_winter_space_heat,per_unit,total,10-12;1-5,all,0-24,,,0.06,USD/kWh,no,Web search summary (electricchoice.com page citing Xcel MN rates); tariff structure not confirmed,Tariff may apply the lower price only above a monthly block or only to space heating kWh
+fuel_cost_charge,per_unit,total,1-12,all,0-24,,,0.01568,USD/kWh,no,Web search summary: Xcel MN Fuel Cost Charge for residential January 2026,January 2026 value applied to all months
+resource_adjustment,per_unit,total,1-12,all,0-24,,,0.0,USD/kWh,no,Not found; Xcel Resource Adjustment riders (CIP; SEP; RDF; TCR; RES) apply per kWh but values were not retrieved,Enter current rider total

@@ -1,0 +1,5 @@
+plan_id,description,electric_rate,gas_rate,eligible_scenarios
+standard,Xcel standard residential + CenterPoint residential,xcel_standard,centerpoint_residential,all
+time_of_use,Xcel residential time-of-use + CenterPoint residential,xcel_tou,centerpoint_residential,all
+space_heating,Xcel residential with electric space heating + CenterPoint residential,xcel_space_heating,centerpoint_residential,ashp_resistance_backup;baseboard;ashp_resistance_backup_hpwh;baseboard_hpwh
+dual_fuel,Xcel standard (house) + Energy-Controlled Service (heating) + CenterPoint residential,xcel_dual_fuel,centerpoint_residential,ashp_gas_backup;ashp_gas_backup_hpwh
