@@ -9,9 +9,10 @@ pip install -r requirements.txt
 python scripts/fetch_resstock.py    # downloads ~800 files from NREL (about 5 GB transferred, 290 MB kept in data/)
 python scripts/build_profiles.py    # hourly profiles for each setup
 python scripts/apply_rates.py       # bills for each setup and rate plan
+python scripts/build_workbook.py    # outputs/results.xlsx
 ```
 
-After editing a rate file in `config/rates/`, rerun only `apply_rates.py`.
+After editing a rate file in `config/rates/`, rerun `apply_rates.py` and `build_workbook.py`. Alternatively, edit the yellow price cells on the Rates sheet of `outputs/results.xlsx`; every bill in the workbook is a formula and recalculates. The workbook is saved without calculated values, so open it in Excel or LibreOffice (which calculate on open) rather than reading it with a library.
 
 ## Source data
 
@@ -72,6 +73,7 @@ TOU holidays in `config/holidays.csv` are the six common utility holidays for 20
 
 | File | Contents |
 |---|---|
+| `outputs/results.xlsx` | Workbook: summary comparison and chart, rate inputs, plan eligibility, monthly bills (formulas), annual usage |
 | `outputs/profiles/{profile}__{setup}.csv` | 8,760 hourly rows: electricity (total, heating, cooling, hot water, other) in kWh and gas (total, heating, hot water, other) in therms |
 | `outputs/annual_usage.csv` | Annual totals and the highest hourly use by profile and setup |
 | `outputs/bills_summary.csv` | Annual electric, gas and total cost by profile, setup and rate plan, and October–May cost |
