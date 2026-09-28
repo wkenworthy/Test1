@@ -12,7 +12,7 @@ python scripts/apply_rates.py       # bills for each setup and rate plan
 python scripts/build_workbook.py    # outputs/results.xlsx
 ```
 
-After editing a rate file in `config/rates/`, rerun `apply_rates.py` and `build_workbook.py`. Alternatively, edit the yellow price cells on the Rates sheet of `outputs/results.xlsx`; every bill in the workbook is a formula and recalculates. The workbook is saved without calculated values, so open it in Excel or LibreOffice (which calculate on open) rather than reading it with a library.
+After editing a rate file in `config/rates/`, rerun `apply_rates.py` and `build_workbook.py`. Alternatively, edit the yellow price cells on the Rates sheet of `outputs/results.xlsx`; every bill in the workbook is a formula and recalculates. `build_workbook.py` writes formulas without calculated values; open the file in Excel or LibreOffice, or recalculate it headless with LibreOffice, before reading values with a library. The committed copy has been recalculated.
 
 ## Source data
 
